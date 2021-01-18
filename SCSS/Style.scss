@@ -1,0 +1,608 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.header{
+  background: #49D3C5;
+  height: 60px;
+  width: 100%;
+}
+.logo {
+  font-family: arial;
+  font-size: 38px;
+  line-height: 60px;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: black;
+
+}
+@media screen and(max-width:330px){
+  .logo{
+    font-size: 30px;
+  }
+}
+.mdc-top-app-bar__row{
+  background-color: #49D3C5;
+  width: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.body {
+  background: #fcfcfc;
+  margin: 0;
+}
+.catalog {
+  float: left;
+  width: 70%;
+}
+
+.nameCatalog{
+  text-align: center;
+  border: 1px black solid;
+  width: 10px;
+  height: 20px;
+}
+.vertical-menu {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 30%; /* Set a width if you like */
+    float: right;
+    font-family: arial;
+    font-size: 26px;
+    text-align: center;
+    font-family: arial;
+}
+@media screen and(max-width:520px){
+  .vertical-menu{
+    width: 100%;
+  }
+}
+@media screen and(max-width:520px){
+  .vertical-menu a {
+      background-color: #eee; /* Grey background color */
+      color: black; /* Black text color */
+      display: block; /* Make the links appear below each other */ /* Add some padding */
+      text-decoration: none; /* Remove underline from links */
+      width: 100%;
+      height: 75px;
+      border-radius: 2px;
+      font-size: 20px;
+  }
+}
+.vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    width: 100%;
+    height: 75px;
+    border-radius: 2px;
+    font-size: 40;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu p.active {
+    background-color: #49D3C5; /* Add a green color to the "active/current" link */
+    color: white;
+    height: 60px;
+    font-size: 40px;
+}
+@media screen and(max-width:520px){
+.catalog{
+  display: none;
+  }
+
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  float: left;
+  margin: 40px;
+  width: 372px;
+  margin-left: 100px;
+  height: 602px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #49D3C5;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.text1{
+  float: left;
+  width:70%;
+}
+
+.zahol{
+  text-align: center;
+  font-size: 36px;
+  font-family: arial;
+  margin-top: 10px;
+}
+.zahol2{
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 50px;
+  padding: 10px;
+  font-family: arial;
+}
+@media screen and(max-width:520px){
+  .text1{
+    width: 100%;
+  }
+  .text p {
+    font-size: 10px;
+  }
+}
+.text{
+  font-size: 16px;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding: 10px;
+  font-family: arial;
+}
+.text2{
+  font-size: 16px;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding: 10px;
+  font-family: arial;
+
+}
+.imgnovnka{
+  float: right;
+  width: 30%;
+  height: 940px;
+  margin-top: 12px;
+}
+@media screen and(max-width:520px){
+  .imgnovnka{
+    display: none;
+  }
+}
+.vertical-menu2 {
+    width: 100%; /* Set a width if you like */
+    border-radius: 20px;
+}
+
+.vertical-menu2 a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu2 a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu2 p.active {
+    background-color: #49D3C5; /* Add a green color to the "active/current" link */
+    color: white;
+    height: 70px;
+    border-radius: 15px;
+    font-size: 38px;
+    text-align: center;
+    font-family: arial;
+    padding: 4px;
+}
+
+.novimg{
+  text-align: center;
+  border-radius: 10px;
+  text-align: bottom;
+}
+
+.novtext{
+  text-align: center;
+  text-align: top;
+  padding: 15px;
+  margin: 10px;
+  font-size: 20px;
+  font-family: arial;
+}
+.contact{
+  width: 100%;
+  height: 70px;
+  background-color: #BEBEBE;
+}
+.h2{
+  text-align: center;
+  padding: 50px;
+  font-size: 32px;
+  font-family: arial;
+}
+.textcontact{
+  font-size: 34px;
+  float: left;
+  margin-top: 15px;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: arial;
+}
+
+.res1 {
+margin: 10px;
+width: 20%;
+float: left;
+}
+.label1{
+  padding: 10px;
+}
+.textcontact1{
+  font-size: 34px;
+  margin-top: 15px;
+  margin-left: 80px;
+  float: left;
+  font-family: arial;
+}
+.res{
+  float: right;
+  margin: 10px;
+  width: 20%;
+  margin-right: 30px;
+}
+.li{
+    list-style-type:  none;
+    font-family: arial;
+}
+A {
+    color: red; /* Цвет ссылок */
+    text-decoration: none;
+   }
+   A:visited {
+    color: #cecece; /* Цвет посещенных ссылок */
+   }
+   A:active {
+    color: #000000; /* Цвет активных ссылок */
+    color: #000000; /* Цвет ссылок */
+   }
+   A:visited {
+    color: #000000; /* Цвет посещенных ссылок */
+   }
+   A:active {
+    color: #000000;
+  }
+  .htext {
+    font-weight:  bold;
+    font-size: 30px;
+    font-family: arial;
+  }
+  .socmerezha{
+    float: right;
+    margin-top: 30px;
+    margin-left: 100px;
+    text-align: center;
+    font-family: arial;
+    font-size: 14px;
+  }
+
+  .link1 {
+    font-size: 20px;
+    width: 400px;
+    height: 250px;
+    text-align: left;
+    padding: 20px;
+    margin-right: 200px;
+    margin-top: 100px;
+    float: right;
+  }
+  .link2 {
+    font-size: 20px;
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+    margin-left: 200px;
+    padding: 20px;
+    margin-top: 100px;
+    text-align: justify;
+    float: left;
+
+  }
+  .link3 {
+    font-size: 20px;
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+    text-align: left;
+    margin-top: 105px;
+    margin-left: 700px;
+  }
+.footfoot{
+float: left;
+position: absolute;
+left: 110px;
+margin-top: 50px;
+}
+.mainmenubtn {
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.mainmenubtn:hover {
+    }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: white;
+    min-width: 200px;
+    float: right;
+    border: 2px #4FD2C4 solid;
+    border-radius: 10px;
+}
+.dropdown-child a {
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+#shopcard1{
+  height: 100px;
+  font-family: arial;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 60px;
+  color: gray;
+  text-decoration: none;
+}
+#shopcard2{
+font-family: arial;
+font-size: 15px;
+border: 1px #34978C solid;
+background-color: #73CFC5;
+color: white;
+text-decoration: none;
+}
+#shopcard2:hover  {
+    background-color: #4FD2C4;
+}
+.mainmenubtn {
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.mainmenubtn:hover {
+    }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: white;
+    min-width: 200px;
+    float: right;
+    border: 1px gray solid;
+    border-radius: 2px;
+}
+.dropdown-child1 a {
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+#dodad{
+  font-family: arial;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px gray solid;
+}
+#dodad:hover  {
+    background-color: #ECECEC;
+}
+#dodad2{
+  font-family: arial;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px gray solid;
+}
+#dodad2:hover  {
+    background-color: #ECECEC;
+}
+.mainmenubtn2 {
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.mainmenubtn2:hover {
+    }
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child2  {
+    display: none;
+    background-color: white;
+    min-width: 200px;
+    float: left;
+    border: 1px gray solid;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+.dropdown-child2 a {
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+}
+.dropdown2:hover .dropdown-child2 {
+    display: block;
+}
+.slide{
+  width: 100%;
+}
+.linkss{
+  text-decoration: none;
+}
+.linkss:hover{
+  text-decoration: none;
+  color: gray;
+}
+.hcatalog{
+  text-align: center;
+  font-family: arial;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+@media screen and(max-width:520px){
+  .text2{
+    display: none;
+  }
+}
+#myFooter{
+    padding-top:32px;
+}
+
+#myFooter .container{
+    text-align: center;
+}
+
+#myFooter .footer-copyright{
+    margin-bottom: 35px;
+    text-align: center;
+    color: #777;
+}
+
+#myFooter ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+#myFooter a{
+    color: #282b2d;
+    font-size: 18px;
+}
+
+#myFooter li{
+    display: inline-block;
+    margin: 0px 15px;
+    line-height: 2;
+}
+
+#myFooter .footer-social{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #eee;
+}
+
+#myFooter .fa{
+    font-size: 36px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: #d0d0d0;
+    border-radius: 51%;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 43px;
+    text-decoration: none;
+    transition:color 0.2s;
+}
+
+#myFooter .fa-facebook:hover{
+   color: #2b55ff;
+}
+
+#myFooter .fa-facebook:focus{
+    color: #2b55ff;
+}
+
+#myFooter .fa-google-plus:hover{
+    color:red;
+}
+
+#myFooter .fa-google-plus:focus{
+    color:red;
+}
+
+#myFooter .fa-twitter:hover{
+    color: #00aced;
+
+}
+
+#myFooter .fa-twitter:focus{
+    color:#00aced;
+}
+
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
